@@ -19,13 +19,13 @@ This docker includes those both tools. At the end of a download, qBittorrent aut
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1644430260</DateInstalled>
+  <DateInstalled>1644430623</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
   <Config Name="Media" Target="/media" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false"/>
   <Config Name="Downloads" Target="/downloads" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false"/>
-  <Config Name="FILEBOT_RENAME_METHOD" Target="FILEBOT_RENAME_METHOD" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">copy</Config>
+  <Config Name="FILEBOT_RENAME_METHOD" Target="FILEBOT_RENAME_METHOD" Default="copy" Mode="" Description="Choices: move | copy | symlink | hardlink | test" Type="Variable" Display="always" Required="false" Mask="false">copy</Config>
   <Config Name="FILEBOT_LANG" Target="FILEBOT_LANG" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">en</Config>
   <Config Name="MOVIE_FORMAT" Target="MOVIE_FORMAT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">/media/{plex}</Config>
   <Config Name="SERIE_FORMAT" Target="SERIE_FORMAT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">/media/{plex}</Config>
