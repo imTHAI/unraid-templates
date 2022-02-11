@@ -35,5 +35,5 @@ This docker includes those both tools. At the end of a download, qBittorrent aut
   <Config Name="WEBUI_PORT" Target="WEBUI_PORT" Default="8080" Mode="" Description="WEB INTERFACE PORT" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
-  <Config Name="CONTAINER_PORT_MAPPING" Target="" Default="8080" Mode="tcp" Description="Must exist and be same as webgui_port if u dont use a dedicated ip" Type="Port" Display="always" Required="false" Mask="false">8080</Config>
+  <Config Name="CONTAINER_PORT_MAPPING" Target="" Default="8080" Mode="tcp" Description="Must exist and be same as webgui_port in case u dont use a dedicated ip" Type="Port" Display="always" Required="false" Mask="false">8080</Config>
 </Container>
