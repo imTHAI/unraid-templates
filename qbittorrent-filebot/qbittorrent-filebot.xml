@@ -13,7 +13,7 @@
 FileBot is the ultimate tool for renaming and organizing your movies, TV shows and Anime. Match and rename media files against online databases, download artwork and cover images, fetch subtitles, write metadata, and more, all at once in matter of seconds. It's smart and just works.&#xD;
 This docker includes those both tools. At the end of a download, qBittorrent automaticaly calls Filebot. (you still need a valid Filebot license)</Overview>
   <Category>Downloaders: Tools:</Category>
-  <WebUI>http://[IP]:[PORT:8080]</WebUI>
+  <WebUI>http://[IP]:8080</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/imTHAI/docker-qbittorrent-filebot/master/img/qbittorrent-filebot.png</Icon>
   <ExtraParams/>
@@ -35,5 +35,5 @@ This docker includes those both tools. At the end of a download, qBittorrent aut
   <Config Name="WEBUI_PORT" Target="WEBUI_PORT" Default="8080" Mode="" Description="WEB INTERFACE PORT" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
-  <Config Name="ContainerPort" Target="" Default="8080" Mode="tcp" Description="Must exist and be same as webgui_port if u dont use a dedicated ip" Type="Port" Display="always" Required="false" Mask="false">8080</Config>
+  <Config Name="CONTAINER_PORT_MAPPING" Target="" Default="8080" Mode="tcp" Description="Must exist and be same as webgui_port if u dont use a dedicated ip" Type="Port" Display="always" Required="false" Mask="false">8080</Config>
 </Container>
