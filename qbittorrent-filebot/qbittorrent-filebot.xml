@@ -13,7 +13,7 @@
 FileBot is the ultimate tool for renaming and organizing your movies, TV shows and Anime. Match and rename media files against online databases, download artwork and cover images, fetch subtitles, write metadata, and more, all at once in matter of seconds. It's smart and just works.&#xD;
 This docker includes those both tools. At the end of a download, qBittorrent automaticaly calls Filebot. (you still need a valid Filebot license)</Overview>
   <Category>Downloaders: Tools:</Category>
-  <WebUI>http://[IP]:8080</WebUI>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/imTHAI/docker-qbittorrent-filebot/master/img/qbittorrent-filebot.png</Icon>
   <ExtraParams/>
