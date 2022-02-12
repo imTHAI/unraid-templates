@@ -19,8 +19,8 @@ pixelserv-tls supports TLSv1.0, TLSv1.2 and TLSv1.3 and thus could operate with 
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1644252577</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
+  <DonateLink>https://www.paypal.me/pb3ar</DonateLink>
+  <DonateText>If you like my work please consider Donating.</DonateText>
   <Requires/>
   <Config Name="Certficates dir" Target="/var/cache/pixelserv" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false"/>
   <Config Name="HTTP" Target="80" Default="80" Mode="tcp" Description="Webserver - Http" Type="Port" Display="always" Required="true" Mask="false">80</Config>
