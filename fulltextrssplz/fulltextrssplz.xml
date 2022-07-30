@@ -1,27 +1,28 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>full-rss-text</Name>
+  <Name>fulltextrssplz</Name>
   <Repository>ghcr.io/whtsky/fulltextrssplz:master</Repository>
-  <Registry>ghcr.io/whtsky/fulltextrssplz:master</Registry>
+  <Registry/>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support/>
-  <Project/>
-  <Overview/>
-  <Category/>
+  <Project>https://github.com/whtsky/fulltextrssplz</Project>
+  <Overview>Transform summary-only web feeds into full-text feeds. &#xD;
+Read articles in full, in peace, in your favourite news reading application.</Overview>
+  <Category>Tools:</Category>
   <WebUI/>
   <TemplateURL/>
-  <Icon/>
+  <Icon>https://github.com/imTHAI/unraid-templates/raw/main/rss.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1659182959</DateInstalled>
+  <DateInstalled>1659202752</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="MAX_ITEMS_PER_FEED" Target="MAX_ITEMS_PER_FEED" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">5</Config>
-  <Config Name="web" Target="80" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">3000</Config>
-  <Config Name="CACHE_CONTROL_MAXAGE" Target="CACHE_CONTROL_MAXAGE" Default="" Mode="" Description="Set max age in Cache-Control header. Use 0 to disable cache." Type="Variable" Display="always" Required="false" Mask="false">1800</Config>
+  <Config Name="MAX_ITEMS_PER_FEED" Target="MAX_ITEMS_PER_FEED" Default="3" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">3</Config>
+  <Config Name="PORT" Target="" Default="80" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">80</Config>
+  <Config Name="CACHE_CONTROL_MAXAGE" Target="CACHE_CONTROL_MAXAGE" Default="1800" Mode="" Description="Set max age in Cache-Control header. Use 0 to disable cache." Type="Variable" Display="always" Required="false" Mask="false">1800</Config>
 </Container>
