@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>Full text RSS</Name>
+  <Name>Full Text RSS</Name>
   <Repository>ghcr.io/whtsky/fulltextrssplz:master</Repository>
   <Registry/>
   <Network>bridge</Network>
