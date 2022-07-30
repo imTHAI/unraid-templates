@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>full-rss-text</Name>
+  <Repository>ghcr.io/whtsky/fulltextrssplz:master</Repository>
+  <Registry>ghcr.io/whtsky/fulltextrssplz:master</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview/>
+  <Category/>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1659182959</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="MAX_ITEMS_PER_FEED" Target="MAX_ITEMS_PER_FEED" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">5</Config>
+  <Config Name="web" Target="80" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">3000</Config>
+  <Config Name="CACHE_CONTROL_MAXAGE" Target="CACHE_CONTROL_MAXAGE" Default="" Mode="" Description="Set max age in Cache-Control header. Use 0 to disable cache." Type="Variable" Display="always" Required="false" Mask="false">1800</Config>
+</Container>
