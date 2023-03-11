@@ -20,8 +20,8 @@ This docker includes those both tools. At the end of a download, qBittorrent aut
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1644521743</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
+  <DonateText>If you like my work please consider Donating.</DonateText>
+  <DonateLink>https://www.buymeacoffee.com/pbear</DonateLink>
   <Requires/>
   <Config Name="Media" Target="/media" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Downloads" Target="/downloads" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
