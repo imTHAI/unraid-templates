@@ -15,7 +15,7 @@ This docker includes those both tools. At the end of a download, qBittorrent aut
   <Category>Downloaders: Tools:</Category>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/imTHAI/docker-qbittorrent-filebot/master/img/qbittorrent-filebot.png</Icon>
+  <Icon>https://raw.githubusercontent.com/imTHAI/docker-qbittorrent-filebot/master/img/qbittorrent-icon.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
