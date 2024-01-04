@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>13Feet-Ladder</Name>
+  <Repository>wasimaster/13ft</Repository>
+  <Registry>https://hub.docker.com/r/wasimaster/13ft</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/wasi-master/13ft/issues</Support>
+  <Project>https://github.com/wasi-master/13ft</Project>
+  <Overview>13 Feet Ladder&#xD;
+&#xD;
+A site similar to 12ft.io but is self hosted and works with websites that 12ft.io doesn't work with.&#xD;
+&#xD;
+What is this?&#xD;
+This is a simple self hosted server that has a simple but powerful interface to block ads, paywalls, and other nonsense. Specially for sites like medium, new york times which have paid articles that you normally cannot read. Now I do want you to support the creators you benefit from but if you just wanna see one single article and move on with your day then this might be helpful&#xD;
+&#xD;
+How does it work?&#xD;
+It pretends to be GoogleBot (Google's web crawler) and gets the same content that google will get. Google gets the whole page so that the content of the article can be indexed properly and this takes advantage of that.</Overview>
+  <Category>Tools:</Category>
+  <WebUI>http://[IP]:[PORT:5000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://github.com/imTHAI/unraid-templates/raw/main/13fladder.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1704380359</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="WEBUI" Target="5000" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">5000</Config>
+</Container>
