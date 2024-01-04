@@ -9,9 +9,7 @@
   <Privileged>false</Privileged>
   <Support>https://github.com/wasi-master/13ft/issues</Support>
   <Project>https://github.com/wasi-master/13ft</Project>
-  <Overview>13 Feet Ladder&#xD;
-&#xD;
-A site similar to 12ft.io but is self hosted and works with websites that 12ft.io doesn't work with.&#xD;
+  <Overview>A site similar to 12ft.io but is self hosted and works with websites that 12ft.io doesn't work with.&#xD;
 &#xD;
 What is this?&#xD;
 This is a simple self hosted server that has a simple but powerful interface to block ads, paywalls, and other nonsense. Specially for sites like medium, new york times which have paid articles that you normally cannot read. Now I do want you to support the creators you benefit from but if you just wanna see one single article and move on with your day then this might be helpful&#xD;
