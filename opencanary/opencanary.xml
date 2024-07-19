@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>OpenCanary</Name>
+  <Repository>imthai/opencanary</Repository>
+  <Registry>https://hub.docker.com/r/imthai/opencanary</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/thinkst/opencanary/issues</Support>
+  <Project>https://github.com/thinkst/opencanary</Project>
+  <Overview>OpenCanary is a multi-protocol network honeypot. It's primary use-case is to catch hackers after they've breached non-public networks. It has extremely low resource requirements and can be tweaked, modified, and extended.&#xD;
+&#xD;
+!! It is obviously recommended to use a dedicated IP for this container so as not to have port conflicts used.&#xD;
+&#xD;
+The following services are enabled by default:&#xD;
+telnet&#xD;
+ssh &#xD;
+http &#xD;
+https</Overview>
+  <Category>Tools: Network:Other</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://github.com/thinkst/opencanary/blob/master/docs/logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1721414591</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="http" Target="80" Default="80" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">80</Config>
+  <Config Name="ftp" Target="21" Default="21" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">21</Config>
+  <Config Name="ssh" Target="22" Default="22" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">22</Config>
+  <Config Name="telnet" Target="23" Default="23" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">23</Config>
+  <Config Name="https" Target="443" Default="443" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">443</Config>
+  <Config Name="CONFIG" Target="/etc/opencanaryd/" Default="/mnt/user/appdata/opencanary" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/cache/appdata/opencanary</Config>
+</Container>
