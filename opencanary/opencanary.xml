@@ -34,5 +34,5 @@ https</Overview>
   <Config Name="ssh" Target="22" Default="22" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">22</Config>
   <Config Name="telnet" Target="23" Default="23" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">23</Config>
   <Config Name="https" Target="443" Default="443" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">443</Config>
-  <Config Name="CONFIG" Target="/etc/opencanaryd/" Default="/mnt/user/appdata/opencanary" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/cache/appdata/opencanary</Config>
+  <Config Name="CONFIG" Target="/etc/opencanaryd/" Default="/mnt/user/appdata/opencanary" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/opencanary</Config>
 </Container>
