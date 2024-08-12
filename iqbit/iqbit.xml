@@ -19,7 +19,7 @@ This is a PWA! This means you can install this app on your device through your O
 Native PushAPI Notifications (hopefully) - Coming whenever apple releases it for iOS 16, expected 2023. Users that enable it could get notifications when a torrent finishes downloading&#xD;
 &#xD;
 ====&#xD;
-PLEASE: Define the env. var 'QBIT_HOST' to the address of your qbittorrent WEBGUI.&#xD;
+You MUST define the env. var 'QBIT_HOST' to the address of your qbittorrent WEBGUI.&#xD;
 Example: http://192.168.0.12:8080&#xD;
 ====</Overview>
   <Category>Tools:</Category>
