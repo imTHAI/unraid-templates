@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>iQbit</Name>
+  <Repository>imthai/iqbit</Repository>
+  <Registry>https://hub.docker.com/r/imthai/iqbit</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/ntoporcov/iQbit/issues</Support>
+  <Project>https://github.com/ntoporcov/iQbit</Project>
+  <Overview>iQbit is an iOS styled WebUI theme for qBitTorrent clients.&#xD;
+&#xD;
+Ease of Use&#xD;
+Mobile Friendly/First&#xD;
+Adhering to Human Interface Guidelines (as much as possible)&#xD;
+This is a PWA! This means you can install this app on your device through your OS default browser. Being a PWA allows us to have native features in the WebUI. Including:&#xD;
+&#xD;
+Native PushAPI Notifications (hopefully) - Coming whenever apple releases it for iOS 16, expected 2023. Users that enable it could get notifications when a torrent finishes downloading&#xD;
+&#xD;
+====&#xD;
+PLEASE: Define the env. var 'QBIT_HOST' to the address of your qbittorrent WEBGUI.&#xD;
+Example: http://192.168.0.12:8080&#xD;
+====</Overview>
+  <Category>Tools:</Category>
+  <WebUI>http://[IP]:8081</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/ntoporcov/iQbit/master/release/public/logo192.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1723468141</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="QBIT_HOST" Target="QBIT_HOST" Default="" Mode="" Description="Define this env. variable to the address of your qbittorrent WEBGUI." Type="Variable" Display="always" Required="false" Mask="false">http://10.0.2.25</Config>
+  <Config Name="STANDALONE_SERVER_PORT" Target="STANDALONE_SERVER_PORT" Default="8081" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">8081</Config>
+</Container>
