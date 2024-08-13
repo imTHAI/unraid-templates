@@ -3,7 +3,7 @@
   <Name>iQbit</Name>
   <Repository>imthai/iqbit</Repository>
   <Registry>https://hub.docker.com/r/imthai/iqbit</Registry>
-  <Network>host</Network>
+  <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
