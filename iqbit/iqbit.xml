@@ -34,5 +34,5 @@ Example: http://192.168.0.12:8080&#xD;
   <DonateLink/>
   <Requires/>
   <Config Name="WEBUI" Target="8081" Default="8081" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8081</Config>
-  <Config Name="STANDALONE_SERVER_PORT" Target="STANDALONE_SERVER_PORT" Default="8081" Mode="" Description="If you want to change the port iQbit listen to, inside the container, Then yiu'll hv to adapt the container port in the WEBUI variable." Type="Variable" Display="always" Required="false" Mask="false">8081</Config>
+  <Config Name="STANDALONE_SERVER_PORT" Target="STANDALONE_SERVER_PORT" Default="8081" Mode="" Description="If you want to change the port iQbit listen to, inside the container. Then don't forget to adapt the container port in the WEBUI variable." Type="Variable" Display="always" Required="false" Mask="false">8081</Config>
 </Container>
