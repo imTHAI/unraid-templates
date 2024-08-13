@@ -33,6 +33,6 @@ Example: http://192.168.0.12:8080&#xD;
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="QBIT_HOST" Target="QBIT_HOST" Default="" Mode="" Description="Define this env. variable to the address of your qbittorrent WEBGUI." Type="Variable" Display="always" Required="false" Mask="false">http://10.0.2.25</Config>
+  <Config Name="QBIT_HOST" Target="QBIT_HOST" Default="" Mode="" Description="Define this env. variable to the address of your qbittorrent WEBGUI." Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="STANDALONE_SERVER_PORT" Target="STANDALONE_SERVER_PORT" Default="8081" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">8081</Config>
 </Container>
