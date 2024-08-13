@@ -33,7 +33,7 @@ Example: http://192.168.0.12:8080&#xD;
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="QBIT_HOST" Target="QBIT_HOST" Default="" Mode="" Description="Define this env. variable to the address of your qbittorrent WEBGUI." Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="QBIT_HOST" Target="QBIT_HOST" Default="" Mode="" Description="Define this env. variable to the address of your qbittorrent WEBUI." Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="WEBUI" Target="8081" Default="8081" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8081</Config>
   <Config Name="STANDALONE_SERVER_PORT" Target="STANDALONE_SERVER_PORT" Default="8081" Mode="" Description="If you want to change the port iQbit listen to, inside the container. Then don't forget to adapt the container port in the WEBUI variable." Type="Variable" Display="always" Required="false" Mask="false">8081</Config>
 </Container>
