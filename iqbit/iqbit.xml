@@ -23,7 +23,7 @@ You MUST define the env. var 'QBIT_HOST' to the address of your qbittorrent WEBG
 Example: http://192.168.0.12:8080&#xD;
 ====</Overview>
   <Category>Tools:</Category>
-  <WebUI>http://[IP]:8081</WebUI>
+  <WebUI>http://[IP]:[PORT:8081]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/ntoporcov/iQbit/master/release/public/logo192.png</Icon>
   <ExtraParams/>
