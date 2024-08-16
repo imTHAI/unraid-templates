@@ -13,7 +13,7 @@
 pixelserv-tls supports TLSv1.0, TLSv1.2 and TLSv1.3 and thus could operate with a wide range of browsers and client devices. Server certificates for any given advert/tracker domains are generated automatically on first use and saved to disk.</Overview>
   <Category>Tools: Other:</Category>
   <WebUI>http://[IP]:[PORT:443]</WebUI>
-  <TemplateURL/>
+  <TemplateURL>https://raw.githubusercontent.com/imTHAI/unraid-templates/master/pixelserv-tls/pixelserv-tls.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/imTHAI/docker-pixelserv-tls/master/img/pixelserv-tls.png</Icon>
   <ExtraParams/>
   <PostArgs/>
