@@ -22,11 +22,7 @@ tl;dr the best way to actually browse for shit.&#xD;
 (I've just adapted it a little so that it only requires one VOLUME mapping, for unraid.)&#xD;
 &#xD;
 If you want to custom the banner, replace it by yours in the /mnt/user/appdata/4get/banner folder.&#xD;
-Ideally, a 400x100p png.&#xD;
-&#xD;
-&#xD;
-&#xD;
-</Overview>
+Ideally, a 400x100p png.</Overview>
   <Category>Tools: Network:Web</Category>
   <WebUI>http://[IP]:80</WebUI>
   <TemplateURL/>
