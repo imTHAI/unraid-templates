@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>4get</Name>
+  <Repository>imthai/4get</Repository>
+  <Registry>https://hub.docker.com/r/luuul/4get/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://git.lolcat.ca/lolcat/4get/issues</Support>
+  <Project>https://git.lolcat.ca/lolcat/4get</Project>
+  <Overview>4get is a proxy search engine that *really* respects your privacy.&#xD;
+&#xD;
+- Rotating proxies on a per-scraper basis&#xD;
+- Search filters, which SearxNG lacks for the most part&#xD;
+- Bot protection that actually filters out the bots (when configured)&#xD;
+- Interface doesn't require javascript&#xD;
+- Favicon fetcher with caching support &amp;amp; image proxy&#xD;
+- Bunch of other shit&#xD;
+tl;dr the best way to actually browse for shit.&#xD;
+&#xD;
+(I've just adapted it a little so that it only requires one VOLUME mapping, for unraid.)</Overview>
+  <Category/>
+  <WebUI>http://[IP]:80</WebUI>
+  <TemplateURL/>
+  <Icon>https://github.com/imTHAI/unraid-templates/raw/main/4get.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1728834271</DateInstalled>
+  <DonateText>Donate to the project</DonateText>
+  <DonateLink>https://4get.ca/donate</DonateLink>
+  <Requires/>
+  <Config Name="FOURGET_SERVER_NAME" Target="FOURGET_SERVER_NAME" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">4get.home.local</Config>
+  <Config Name="FOURGET_PROTO" Target="FOURGET_PROTO" Default="http|https" Mode="" Description="If https, put the valid certificates&#13;&#10;in the folder /mnt/user/appdata/4get&#13;&#10;(fullchain.pem and privkey.pem)" Type="Variable" Display="always" Required="false" Mask="false">http</Config>
+  <Config Name="HTTPS_CERT" Target="/etc/4get/certs" Default="/mnt/user/appdata/4get" Mode="rw" Description="Needed only for https" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/4get</Config>
+  <Config Name="http" Target="80" Default="80" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">80</Config>
+  <Config Name="https" Target="443" Default="443" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">443</Config>
+</Container>
