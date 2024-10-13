@@ -3,7 +3,7 @@
   <Name>4get</Name>
   <Repository>imthai/4get</Repository>
   <Registry>https://hub.docker.com/r/luuul/4get/</Registry>
-  <Network>bridge</Network>
+  <Network>host</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
