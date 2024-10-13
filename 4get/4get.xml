@@ -20,7 +20,7 @@
 tl;dr the best way to actually browse for shit.&#xD;
 &#xD;
 (I've just adapted it a little so that it only requires one VOLUME mapping, for unraid.)</Overview>
-  <Category/>
+  <Category>Tools: Network:Web</Category>
   <WebUI>http://[IP]:80</WebUI>
   <TemplateURL/>
   <Icon>https://github.com/imTHAI/unraid-templates/raw/main/4get.png</Icon>
