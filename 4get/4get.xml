@@ -16,8 +16,8 @@
 - Bot protection that actually filters out the bots (when configured)&#xD;
 - Interface doesn't require javascript&#xD;
 - Favicon fetcher with caching support &amp;amp; image proxy&#xD;
-- Bunch of other shit&#xD;
-tl;dr the best way to actually browse for shit.&#xD;
+- Bunch of other stuff&#xD;
+tl;dr the best way to actually browse for stuff.&#xD;
 &#xD;
 (I've just adapted it a little so that it only requires only one volume mapping, for unraid.)&#xD;
 &#xD;
