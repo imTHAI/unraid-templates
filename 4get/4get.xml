@@ -9,7 +9,7 @@
   <Privileged>false</Privileged>
   <Support>https://git.lolcat.ca/lolcat/4get/issues</Support>
   <Project>https://git.lolcat.ca/lolcat/4get</Project>
-  <Overview>4get is a proxy search engine that *really* respects your privacy.&#xD;
+   <Overview>4get is a proxy search engine that *really* respects your privacy.&#xD;
 &#xD;
 - Rotating proxies on a per-scraper basis&#xD;
 - Search filters, which SearxNG lacks for the most part&#xD;
@@ -19,7 +19,14 @@
 - Bunch of other shit&#xD;
 tl;dr the best way to actually browse for shit.&#xD;
 &#xD;
-(I've just adapted it a little so that it only requires one VOLUME mapping, for unraid.)</Overview>
+(I've just adapted it a little so that it only requires one VOLUME mapping, for unraid.)&#xD;
+&#xD;
+If you want to custom the banner, replace it by yours in the /mnt/user/appdata/4get/banner folder.&#xD;
+Ideally, a 400x100p png.&#xD;
+&#xD;
+&#xD;
+&#xD;
+</Overview>
   <Category>Tools: Network:Web</Category>
   <WebUI>http://[IP]:80</WebUI>
   <TemplateURL/>
