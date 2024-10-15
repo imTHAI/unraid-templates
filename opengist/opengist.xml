@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>opengist</Name>
+  <Repository>ghcr.io/thomiceli/opengist</Repository>
+  <Registry/>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/thomiceli/opengist/issues</Support>
+  <Project>https://opengist.io</Project>
+  <Overview>Opengist is a self-hosted pastebin powered by Git. All snippets are stored in a Git repository and can be read and/or modified using standard Git commands, or with the web interface. It is similiar to GitHub Gist, but open-source and could be self-hosted.&#xD;
+&#xD;
+- Create public, unlisted or private snippets&#xD;
+- Init / Clone / Pull / Push snippets via Git over HTTP or SSH&#xD;
+- Syntax highlighting ; markdown &amp;amp; CSV support&#xD;
+- Search code in snippets ; browse users snippets, likes and forks&#xD;
+- Embed snippets in other websites&#xD;
+- Revisions history&#xD;
+- Like / Fork snippets&#xD;
+- Download raw files or as a ZIP archive&#xD;
+- OAuth2 login with GitHub, GitLab, Gitea, and OpenID Connect&#xD;
+- Restrict or unrestrict snippets visibility to anonymous users&#xD;
+- Docker support&#xD;
+- More...</Overview>
+  <Category>Productivity: Tools:</Category>
+  <WebUI>http://[IP]:6157</WebUI>
+  <TemplateURL/>
+  <Icon>https://github.com/imTHAI/unraid-templates/raw/main/opengist.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1728964729</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="HTTP" Target="6157" Default="6157" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">6157</Config>
+  <Config Name="2222" Target="2222" Default="2222" Mode="tcp" Description="Can be removed if you don't use SSH" Type="Port" Display="always" Required="false" Mask="false">2222</Config>
+  <Config Name="Config Folder" Target="/opengist" Default="" Mode="rw" Description="" Type="Path" Display="advanced" Required="false" Mask="false">/mnt/user/appdata/opengist</Config>
+</Container>
