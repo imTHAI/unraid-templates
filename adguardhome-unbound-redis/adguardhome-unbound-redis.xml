@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>adguardhome-unbound-redis</Name>
+  <Repository>imthai/adguardhome-unbound-redis</Repository>
+  <Registry>https://hub.docker.com/repository/docker/imthai/adguardhome-unbound-redis/general</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/imTHAI/adguardhome-unbound-redis/issues</Support>
+  <Project>https://github.com/imTHAI/adguardhome-unbound-redis/tree/main</Project>
+  <Overview>Adguard Home uses unbound as upstream DNS server with prefetch turned on.&#xD;
+Unbound uses redis-server as in-memory data cache.&#xD;
+&#xD;
+= THE DEFAULT CREDENTIALS FOR ADGUARD: admin/admin (You can change it in the config/AdGuardHome/AdGuardHome.yaml)&#xD;
+= USE THIS DOCKER WITH A DEDICATED IP OR NETWORK.</Overview>
+  <Category>Network:DNS</Category>
+  <WebUI>http://[IP]:[3000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://github.com/imTHAI/unraid-templates/raw/main/AdGuardHome_U-R.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1729412653</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="WebGUI" Target="3000" Default="3000" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">3000</Config>
+  <Config Name="CONFIG" Target="/config" Default="/mnt/user/appdata/adguardhome-unbound-redis" Mode="rw" Description="" Type="Path" Display="advanced" Required="false" Mask="false">/mnt/user/appdata/adguardhome-unbound-redis</Config>
+  <Config Name="DNS" Target="53" Default="53" Mode="tcp" Description="" Type="Port" Display="advanced" Required="false" Mask="false">53</Config>
+</Container>
