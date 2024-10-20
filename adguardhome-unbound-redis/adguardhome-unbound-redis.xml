@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>adguardhome-unbound-redis</Name>
   <Repository>imthai/adguardhome-unbound-redis</Repository>
-  <Registry>https://hub.docker.com/repository/docker/imthai/adguardhome-unbound-redis/general</Registry>
+  <Registry>https://hub.docker.com/repository/docker/imthai/adguardhome-unbound-redis</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
