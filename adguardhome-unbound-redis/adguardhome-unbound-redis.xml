@@ -15,7 +15,7 @@ Unbound uses redis-server as in-memory data cache.&#xD;
 = THE DEFAULT CREDENTIALS FOR ADGUARD: admin/admin (You can change it in the config/AdGuardHome/AdGuardHome.yaml)&#xD;
 = USE THIS DOCKER WITH A DEDICATED IP OR NETWORK.</Overview>
   <Category>Network:DNS</Category>
-  <WebUI>http://[IP]:[3000]</WebUI>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
   <TemplateURL/>
   <Icon>https://github.com/imTHAI/unraid-templates/raw/main/AdGuardHome_U-R.png</Icon>
   <ExtraParams/>
