@@ -19,7 +19,6 @@ FileBot
 	•	Ultimate tool for organizing movies, TV shows, and anime
 	•	Matches and renames files using online databases
 	•	Downloads artwork, fetches subtitles, and writes metadata
-	•	Requires a valid license
 Features
 	•	Based on Ubuntu with the latest stable releases of both tools
 	•	Automatic integration: qBittorrent calls FileBot upon download completion
