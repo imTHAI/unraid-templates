@@ -23,17 +23,18 @@ This docker includes those both tools. At the end of a download, qBittorrent aut
   <DonateText>If you like my work please consider Donating.</DonateText>
   <DonateLink>https://www.buymeacoffee.com/pbear</DonateLink>
   <Requires/>
-  <Config Name="Media" Target="/media" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
-  <Config Name="Downloads" Target="/downloads" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
-  <Config Name="CONFIG" Target="/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Media" Target="/media" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/media/</Config>
+  <Config Name="Downloads" Target="/downloads" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/downloads/</Config>
+  <Config Name="CONFIG" Target="/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/qbittorrent-filebot/</Config>
   <Config Name="FILEBOT_ACTION" Target="FILEBOT_ACTION" Default="copy" Mode="" Description="Choices: move | copy | symlink | hardlink | test" Type="Variable" Display="always" Required="false" Mask="false">copy</Config>
   <Config Name="FILEBOT_LANG" Target="FILEBOT_LANG" Default="" Mode="" Description="Choices: en | fr | ..." Type="Variable" Display="always" Required="false" Mask="false">en</Config>
   <Config Name="MOVIE_FORMAT" Target="MOVIE_FORMAT" Default="{plex}" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="SERIE_FORMAT" Target="SERIE_FORMAT" Default="{plex}" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="ANIME_FORMAT" Target="ANIME_FORMAT" Default="animes/{n}/{e.pad(3)} - {t}" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="MUSIC_FORMAT" Target="MUSIC_FORMAT" Default="{plex}" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="WEBUI_PORT" Target="WEBUI_PORT" Default="8080" Mode="" Description="WEB INTERFACE PORT" Type="Variable" Display="always" Required="true" Mask="false"/>
-  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
-  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
-  <Config Name="CONTAINER_PORT_MAPPING" Target="8080" Default="8080" Mode="tcp" Description="Must exist and be same as webgui_port in case u dont use a dedicated ip" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
+  <Config Name="WEBUI" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8080</Config>
+  <Config Name="TORRENTING_TCP" Target="6881" Default="6881" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">6881</Config>
+  <Config Name="TORRENTING_UDP" Target="6881" Default="6881" Mode="udp" Description="" Type="Port" Display="always" Required="false" Mask="false">6881</Config>
 </Container>
