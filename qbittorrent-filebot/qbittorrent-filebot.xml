@@ -41,6 +41,17 @@ Note: A valid FileBot license is required to fully utilize the automated feature
   <DonateText>If you like my work please consider Donating.</DonateText>
   <DonateLink>https://www.buymeacoffee.com/pbear</DonateLink>
   <Requires/>
+  <Changes>
+### 2025-04-24
+- Rebase to Ubuntu 24.10.
+
+### 2024-03-23
+- Rebase to Ubuntu Rolling.
+
+### 2022-02-10
+- Initial Release.
+	  
+  </Changes>
   <Config Name="Media" Target="/media" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/media/</Config>
   <Config Name="Downloads" Target="/downloads" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/downloads/</Config>
   <Config Name="CONFIG" Target="/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/qbittorrent-filebot/</Config>
