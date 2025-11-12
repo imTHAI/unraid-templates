@@ -42,6 +42,10 @@ Note: A valid FileBot license is required to fully utilize the automated feature
   <DonateLink>https://www.buymeacoffee.com/pbear</DonateLink>
   <Requires/>
   <Changes>
+### 2025-11-12
+- Rebase to Ubuntu 25.10.
+- Update Qbittorrent to v5.1.3
+
 ### 2025-07-04
 - Update Qbittorrent to v5.1.2
 	
