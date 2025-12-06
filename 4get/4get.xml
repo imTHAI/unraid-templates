@@ -9,20 +9,18 @@
   <Privileged>false</Privileged>
   <Support>https://git.lolcat.ca/lolcat/4get/issues</Support>
   <Project>https://git.lolcat.ca/lolcat/4get</Project>
-   <Overview>4get is a proxy search engine that *really* respects your privacy.&#xD;
-&#xD;
-- Rotating proxies on a per-scraper basis&#xD;
-- Search filters, which SearxNG lacks for the most part&#xD;
-- Bot protection that actually filters out the bots (when configured)&#xD;
-- Interface doesn't require javascript&#xD;
-- Favicon fetcher with caching support &amp;amp; image proxy&#xD;
-- Bunch of other stuff&#xD;
-tl;dr the best way to actually browse for stuff.&#xD;
-&#xD;
-(I've just adapted it a little so that it requires only one volume mapping, for unraid.)&#xD;
-&#xD;
-If you want to custom the banner, replace it by yours in the /mnt/user/appdata/4get/banner folder.&#xD;
-Ideally, a 400x100p png.</Overview>
+   <Overview>4get: a proxy search engine that truly respects your privacy.&#13;
+&#13;
+- Rotating proxies on a per-scraper basis&#13;
+- Search filters (mostly missing in SearxNG)&#13;
+- Bot protection that actually works when enabled&#13;
+- Lightweight interface &#x2014; no JavaScript required&#13;
+- Favicon fetcher with caching and image proxy&#13;
+- Plus a bunch of other useful features&#13;
+&#13;
+&#x1F449; In short: the best way to actually browse without compromise.&#13;
+&#13;
+To customize the banner, replace it with your own image in: /mnt/user/appdata/4get/banner Recommended format: PNG, 400x100 px.</Overview>
   <Category>Tools: Network:Web</Category>
   <WebUI>http://[IP]:80</WebUI>
   <TemplateURL/>
