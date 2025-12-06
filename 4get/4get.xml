@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>4get</Name>
-  <Repository>imthai/4get</Repository>
+  <Repository>luuul/4get:latest</Repository>
   <Registry>https://hub.docker.com/r/luuul/4get/</Registry>
   <Network>host</Network>
   <MyIP/>
@@ -35,8 +35,10 @@ Ideally, a 400x100p png.</Overview>
   <DonateLink>https://4get.ca/donate</DonateLink>
   <Requires/>
   <Config Name="FOURGET_SERVER_NAME" Target="FOURGET_SERVER_NAME" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">4get.home.local</Config>
-  <Config Name="FOURGET_PROTO" Target="FOURGET_PROTO" Default="http|https" Mode="" Description="If https, put the valid certificates&#13;&#10;in the folder /mnt/user/appdata/4get&#13;&#10;(fullchain.pem and privkey.pem)" Type="Variable" Display="always" Required="false" Mask="false">http</Config>
-  <Config Name="HTTPS_CERT" Target="/etc/4get/certs" Default="/mnt/user/appdata/4get" Mode="rw" Description="Needed only for https" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/4get</Config>
+  <Config Name="FOURGET_BOT_PROTECTION" Target="FOURGET_BOT_PROTECTION" Default="" Mode="" Description="Set FOURGET_BOT_PROTECTION=1 and mount a directory containing captcha files to /mnt/user/4get/captcha" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
+  <Config Name="FOURGET_PROTO" Target="FOURGET_PROTO" Default="http|https" Mode="" Description="If https, put the valid certificates&#13;&#10;in the folder /mnt/user/appdata/4get/certs&#13;&#10;(fullchain.pem and privkey.pem)" Type="Variable" Display="always" Required="false" Mask="false">http</Config>
+  <Config Name="HTTPS_CERT" Target="/etc/4get/certs" Default="/mnt/user/appdata/4get" Mode="rw" Description="Needed only for https" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/4get/certs</Config>
   <Config Name="http" Target="80" Default="80" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">80</Config>
   <Config Name="https" Target="443" Default="443" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">443</Config>
+  <Config Name="captcha" Target="/var/www/html/4get/data/captcha" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/4get/captcha/</Config>
 </Container>
