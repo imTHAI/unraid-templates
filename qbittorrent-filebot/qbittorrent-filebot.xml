@@ -42,6 +42,15 @@ Note: A valid FileBot license is required to fully utilize the automated feature
   <DonateLink>https://www.buymeacoffee.com/pbear</DonateLink>
   <Requires/>
   <Changes>
+### 2026-01-18
+- Major Security Rebase: Migrated from Ubuntu 25.10 to Hardened Wolfi (Chainguard) base.
+- Implemented Multi-Stage Build to reduce image size and attack surface.
+- Switched to static qBittorrent-nox binary for better stability.
+- Replaced gosu with su-exec for lighter privilege management.
+- Improved startup performance: Permissions are now applied selectively (no more long chown on large libraries).
+- Added Tini as init process for better signal handling and zombie process reaping.
+- Fixed FileBot compatibility on glibc-based minimal environments.
+	  
 ### 2025-11-20
 - Update Qbittorrent to v5.1.4
 
