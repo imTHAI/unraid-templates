@@ -25,7 +25,7 @@
   <Requires/>
   <Config Name="Web UI Port" Target="8080" Default="8080" Mode="tcp" Description="Port for the web interface." Type="Port" Display="always" Required="true" Mask="false">8080</Config>
   <Config Name="AppData / Data" Target="/data" Default="/mnt/user/appdata/rustatio" Mode="rw" Description="Storage for data and configuration files." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/rustatio</Config>
-  <Config Name="Auth Token" Target="AUTH_TOKEN" Default="" Mode="" Description="Optional authentication token to secure access." Type="Variable" Display="always" Required="false" Mask="true">PQK7hrc9jva*dez9fqk</Config>
+  <Config Name="Auth Token" Target="AUTH_TOKEN" Default="" Mode="" Description="Optional authentication token to secure access." Type="Variable" Display="always" Required="false" Mask="true"></Config>
   <Config Name="Watch Folder Path" Target="/torrents" Default="" Mode="rw" Description="Optional folder for automatic torrent detection." Type="Path" Display="always" Required="false" Mask="false"/>
   <Config Name="Auto Start Watch" Target="WATCH_AUTO_START" Default="false" Mode="" Description="Automatically start faking for new torrents detected in the watch folder." Type="Variable" Display="always" Required="false" Mask="false">false</Config>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Unraid User ID (default 99)." Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
