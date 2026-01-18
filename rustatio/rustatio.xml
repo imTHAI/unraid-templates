@@ -10,7 +10,8 @@
   <Support>https://github.com/takitsu21/rustatio/issues</Support>
   <Project>https://github.com/takitsu21/rustatio</Project>
   <ReadMe>https://github.com/takitsu21/rustatio?tab=readme-ov-file#docker-self-hosted</ReadMe>
-  <Overview>Rustatio is a lightweight tool to manage and simulate torrent activity (ratio/seeding faking).</Overview>
+  <Overview>Rustatio is a lightweight tool to manage and simulate torrent activity (ratio/seeding faking) for your Debrid accounts.</Overview>
+  <Description>Rustatio allows you to manage and simulate torrent activity, specifically designed for faking upload ratios and maintaining seeding status, often used in conjunction with Debrid services. It helps in increasing your upload statistics without actual heavy data transfer from your local machine.</Description>
   <Category>Downloaders: Other</Category>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <TemplateURL/>
