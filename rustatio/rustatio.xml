@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>rustatio</Name>
+  <Repository>ghcr.io/takitsu21/rustatio:latest</Repository>
+  <Registry>https://github.com/takitsu21/rustatio</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/takitsu21/rustatio/issues</Support>
+  <Project>https://github.com/takitsu21/rustatio</Project>
+  <ReadMe>https://github.com/takitsu21/rustatio?tab=readme-ov-file#docker-self-hosted</ReadMe>
+  <Overview>Rustatio is a lightweight tool to manage and simulate torrent activity (ratio/seeding faking) for your Debrid accounts.</Overview>
+  <Description>Rustatio allows you to manage and simulate torrent activity, specifically designed for faking upload ratios and maintaining seeding status, often used in conjunction with Debrid services. It helps in increasing your upload statistics without actual heavy data transfer from your local machine.</Description>
+  <Category>Downloaders: Other</Category>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/takitsu21/rustatio/main/rustatio-desktop/icons/icon.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Web UI Port" Target="8080" Default="8080" Mode="tcp" Description="Port for the web interface." Type="Port" Display="always" Required="true" Mask="false">8080</Config>
+  <Config Name="AppData / Data" Target="/data" Default="/mnt/user/appdata/rustatio" Mode="rw" Description="Storage for data and configuration files." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/rustatio</Config>
+  <Config Name="Auth Token" Target="AUTH_TOKEN" Default="" Mode="" Description="Optional authentication token to secure access." Type="Variable" Display="always" Required="false" Mask="true"></Config>
+  <Config Name="Watch Folder Path" Target="/torrents" Default="" Mode="rw" Description="Optional folder for automatic torrent detection." Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="Auto Start Watch" Target="WATCH_AUTO_START" Default="false" Mode="" Description="Automatically start faking for new torrents detected in the watch folder." Type="Variable" Display="always" Required="false" Mask="false">false</Config>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Unraid User ID (default 99)." Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Unraid Group ID (default 100)." Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
+  <Config Name="Log Level" Target="RUST_LOG" Default="info" Mode="" Description="Logging level (info, debug, error)." Type="Variable" Display="advanced" Required="false" Mask="false">info</Config>
+  <TailscaleStateDir/>
+</Container>
