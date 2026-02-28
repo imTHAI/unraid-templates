@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>rustatio</Name>
-  <Repository>ghcr.io/takitsu21/rustatio:latest</Repository>
+  <Repository>ghcr.io/takitsu21/rustatio</Repository>
   <Registry>https://github.com/takitsu21/rustatio</Registry>
   <Network>bridge</Network>
   <MyIP/>
