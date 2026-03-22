@@ -42,6 +42,10 @@ Note: A valid FileBot license is required to fully utilize the automated feature
   <DonateLink>https://www.buymeacoffee.com/pbear</DonateLink>
   <Requires/>
   <Changes>
+### 2026-03-22
+- Dynamic Binary Fetch: Now using GitHub API to automatically pull the latest qBittorrent-nox static binary (improves update reliability).
+- Update libtorrent to v2.0.12
+	  
 ### 2026-01-18
 - Major Security Rebase: Migrated from Ubuntu 25.10 to Hardened Wolfi (Chainguard) base.
 - Implemented Multi-Stage Build to reduce image size and attack surface.
