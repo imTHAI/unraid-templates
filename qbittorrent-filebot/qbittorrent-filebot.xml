@@ -42,6 +42,11 @@ Note: A valid FileBot license is required to fully utilize the automated feature
   <DonateLink>https://www.buymeacoffee.com/pbear</DonateLink>
   <Requires/>
   <Changes>
+### 2026-05-13
+- Updated to qBittorrent v5.2.0
+- Fixed v5.2.0 compatibility: set HOME=/data for XDG cache resolution, remove stale
+  lockfile on startup, switch from exec to background process with wait for container stability
+	  
 ### 2026-03-22
 - Dynamic Binary Fetch: Now using GitHub API to automatically pull the latest qBittorrent-nox static binary (improves update reliability).
 - Update libtorrent to v2.0.12
