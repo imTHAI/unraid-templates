@@ -42,6 +42,9 @@ Note: A valid FileBot license is required to fully utilize the automated feature
   <DonateLink>https://www.buymeacoffee.com/pbear</DonateLink>
   <Requires/>
   <Changes>
+### 2026-05-27
+- Update Qbittorrent to v5.2.1
+	  
 ### 2026-05-13
 - Updated to qBittorrent v5.2.0
 - Fixed v5.2.0 compatibility: set HOME=/data for XDG cache resolution, remove stale
