@@ -42,6 +42,9 @@ Note: A valid FileBot license is required to fully utilize the automated feature
   <DonateLink>https://www.buymeacoffee.com/pbear</DonateLink>
   <Requires/>
   <Changes>
+### 2026-09-26
+- Update libtorrent to v2.0.15
+	  
 ### 2026-07-08
 - Update Qbittorrent to v5.2.3
 	  
